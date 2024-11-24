@@ -1,0 +1,23 @@
+[general]
+import = ["/usr/lib/node_modules/alacritty-themes/themes/Catppuccin-Mocha.toml"]
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+normal = { family = "JetBrains Mono" } 
+size = 14.0
+
+[scrolling]
+history = 5_000
+
+[window]
+title = "Alacritty"
+
+  [window.class]
+  general = "Alacritty"
+  instance = "Alacritty"
+
+  [window.padding]
+  x = 6
+  y = 6
